@@ -23,3 +23,12 @@ button {
   cursor: pointer;
 }
 
+.gallery_item{
+  list-style: none;
+}
+
+.gallery_img {
+  width: 500px;
+  border-radius: 50px;
+  padding-bottom: 25px;
+}

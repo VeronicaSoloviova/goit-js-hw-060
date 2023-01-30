@@ -17,7 +17,7 @@ const gallery = document.querySelector('.gallery');
 //console.log(gallery);
 
 function createGalleryItemsMarkUp(images) {
-  return images.map(({ url, alt }) => `<li class = "gallery.item"><img class = "gallery.img" src = "${url}" alt = "${alt}"></li>`).join('');
+  return images.map(({ url, alt }) => `<li class = "gallery_item"><img class = "gallery_img" src = "${url}" alt = "${alt}"></li>`).join('');
 }
 //console.log(createGalleryItemsMarkUp(images));
 
